@@ -1,1 +1,1 @@
-I have added the SQL daily assessments and practice files.
+I have added daily assessments and practice files.
