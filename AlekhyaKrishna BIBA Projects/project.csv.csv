@@ -1,0 +1,51 @@
+empid,name,sex,salary,dept id
+1,maheer,M,5000,IT
+2,wafa,M,6000,IT
+3,asi,F,2500,Payroll
+4,sarfaraj,M,4000,HR
+5,pyarijaan,F,2000,HR
+6,Mahaboob,M,2000,Payroll
+7,ayesha,F, 3000,IT
+8,ashish,M,90000,IT
+9,aswini,F,67346,HR
+10,balaji,M,100000,support
+11,harika,F,10000,sales
+12,yatin,M,50000,analyst
+13,tarun,M,40000,business
+14,sowji,F,20000,Payroll
+15,charan,M,70000,financial
+16,kushith,M,30000,support
+17,karishma,F,20000,sales
+18,dileep,M,160000,developer
+19,chandu,F,30000,techiee
+20,manoj,M,150000,analyst
+21,jahnavi,F,25000,system engineer
+22,vandana,F,50000,solution developer
+23,alekhya,F,40000,data engineer
+24,sharmi,F,75000,financial
+25,deepak,M,90000,business
+26,krishna,M,20000,financial
+27,laxman,M,35000,sales
+28,sai,M,30000,techiee
+29,venkat,M,20000,HR
+30,yuktha,F,40000,Payroll
+31,geetha,F,70000,data engineer
+32,kittu,F,100000,analyst
+33,nageswar,M,30000,finanial
+34,junnu,M,50000,system engineer
+35,lizitha,F,80000,techiee
+36,sandeep,M,150000,IT
+37,suraj,M,90000,solution developer
+38,akhil,M,11000,HR
+39,laxmi,F,60000,sales
+40,rashmi,F,34875,techiee
+41,kishan,M,84678,developer
+42,tanya,F,89888,financial
+43,naina,F,80500,analyst
+44,bunny,M,55000,IT
+45,sid,M,76000,sales
+46,surya,M,43209,HR
+47,shiv,M,65000,data engineer
+48,priya,F,43888,techiee
+49,deepika,F,55000,sales
+50,vamsi,M,35000,Payroll
