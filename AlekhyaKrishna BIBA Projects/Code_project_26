@@ -1,0 +1,13 @@
+# example
+dbutils.fs.mount(source = 'wasbs://<container-name>@<storage-account-name>.blob.core.windows.net', 
+mount_point = '/mnt/<mount-name>', 
+extra_configs = {'fs.azure.account.key. <storage-account-name>.blob.core.windows.net':Accountkey'})
+
+# Project code
+dbutils.fs.mount(source = 'wasbs://teamjcontainer@teamjstorage.blob.core.windows.net', 
+mount_point = '/mnt/ teamjstorage ',
+extra_configs= {'fs.azure.account.key.teamjstorage.blob.core.windows.net':'DU/jzGolq9vQx9iWfplx1hgnzhpJJUpCQ0I+6s43LQvDtawIMbs094pMDJxuLOJENsYW1u6gTs0H+AStq1fEwA=='})
+
+dbutils.fs.ls('/mnt/ teamjstorage ')
+
+df = spark.read.csv('/mnt/ teamjstorage /project.csv',header=True) df.show() from pyspark.sql.functions import count,min,max df.groupBy('dept id').agg(count('*').alias('count_of_emp'),\ min('salary').alias('Min_salary'),\ max('salary').alias('max_salary')).show()
